@@ -6,5 +6,6 @@ import { SignalsModule } from './modules/signals/signals.module';
 @Module({
   controllers: [AppController],
   providers: [AppService],
+  imports: [SignalsModule],
 })
 export class AppModule {}
